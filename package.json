@@ -1,0 +1,24 @@
+{
+  "name": "js-learning",
+  "version": "1.0.0",
+  "description": "Learn machine learning / deep learning by reinventing the wheel in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mingzhangyang/js-learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mingzhangyang/js-learning/issues"
+  },
+  "homepage": "https://github.com/mingzhangyang/js-learning#readme",
+  "devDependencies": {
+    "typescript": "^2.8.1"
+  }
+}

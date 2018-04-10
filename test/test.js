@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var neuron_1 = require("../src/neuron");
+var layer_1 = require("../src/layer");
+var n = new neuron_1.Neuron(10);
+// console.log(n);
+var layer = new layer_1.Layer(20, 10);
+console.dir(layer, { depth: null, colors: true });
+console.log(Array.isArray(layer.neurons));
+console.log(layer.neurons.length);
