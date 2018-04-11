@@ -16,7 +16,7 @@ class Neuron {
         for (let i = 0; i < input.length; i++) {
             res += (input[i] * this.weights[i]);
         }
-        return res;
+        return res + this.bias;
     }
     // update weights
     update() {
